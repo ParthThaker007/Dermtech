@@ -1,4 +1,4 @@
-﻿absl-py==2.1.0
+absl-py==2.1.0
 aiofiles==22.1.0
 aiosqlite==0.18.0
 anyio==3.6.2
@@ -69,6 +69,7 @@ Markdown==3.6
 markdown-it-py==3.0.0
 MarkupSafe==2.1.2
 matplotlib-inline==0.1.6
+maturin==1.5.1
 mdurl==0.1.2
 mistune==2.0.5
 ml-dtypes==0.3.2
@@ -102,7 +103,7 @@ pyparsing==3.1.2
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-json-logger==2.0.7
-pywin32; sys_platform == 'win32'
+pywin32==306
 pywinpty==2.0.10
 PyYAML==6.0
 pyzmq==25.0.2
