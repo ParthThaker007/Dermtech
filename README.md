@@ -57,46 +57,8 @@ Firebase CLI installed
 Backend (Flask)
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/skindisease-diagnosis.git
-cd skindisease-diagnosis/backend
-Create and activate a virtual environment:
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install the required dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Flask server:
-
-bash
-Copy code
-flask run
-Frontend (Angular)
-Navigate to the frontend directory:
-
-bash
-Copy code
-cd ../frontend
-Install the required dependencies:
-
-bash
-Copy code
-npm install
-Serve the Angular application:
-
-bash
-Copy code
-ng serve
-Firebase Authentication
-Set up Firebase Authentication by creating a Firebase project and enabling Authentication.
-
-Add your Firebase configuration to the Angular environment files.
 
 Usage
 Open your browser and navigate to http://localhost:4200 to access the frontend.
@@ -109,22 +71,7 @@ Follow Render's instructions to deploy your Flask application.
 Frontend (Firebase Hosting)
 Build the Angular project:
 
-bash
-Copy code
-ng build --prod
-Deploy to Firebase Hosting:
 
-bash
-Copy code
-firebase deploy
-Contributing
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit them (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
-License
-This project is licensed under the MIT License.
 
 Contact
 For any inquiries or issues, please contact thakerparth12@gmail.com.
