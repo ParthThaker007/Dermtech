@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/predict": {"origins": "https://medical-website-9a133.web.app"}})
 
 # Load your model
 model = load_model('models/mymodel.keras')
