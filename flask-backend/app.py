@@ -47,7 +47,7 @@ def predict():
             'melanoma', 'nevus', 'pigmented benign keratosis', 
             'seborrheic keratosis', 'squamous cell carcinoma', 'vascular lesion'
         ]
-        predicted_class = classes[max_index -1]
+        predicted_class = classes[max_index]
 
         # Clean up the uploaded file
         os.remove(file_path)
@@ -59,7 +59,5 @@ def predict():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     
-    
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
