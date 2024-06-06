@@ -5,10 +5,12 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from flask_cors import CORS
 import numpy as np
 import os
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+import numpy as np
 
 app = Flask(__name__)
 CORS(app, resources={r"/predict": {"origins": "https://medical-website-9a133.web.app"}})
-
 
 # Load your model
 model = load_model('models/mymodel.keras')
